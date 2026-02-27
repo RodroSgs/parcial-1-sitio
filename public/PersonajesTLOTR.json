@@ -1,0 +1,162 @@
+[
+  {
+    "nombre": "Gandalf",
+    "raza": "Maiar",
+    "genero": "Male",
+    "realm": "Valinor",
+    "nacimiento": "Antes de la creación de Arda",
+    "imagen": "https://www.ecured.cu/images/thumb/c/c0/Gandalf_el_Gris.jpg/260px-Gandalf_el_Gris.jpg"
+  },
+  {
+    "nombre": "Frodo Baggins",
+    "raza": "Hobbit",
+    "genero": "Male",
+    "realm": "La Comarca",
+    "nacimiento": "22 de septiembre, año 2968 T.E.",
+    "imagen": "https://i.pinimg.com/736x/28/b9/8f/28b98f7cdce838278d683d3b809c8f1e.jpg"
+  },
+  {
+    "nombre": "Aragorn",
+    "raza": "Human",
+    "genero": "Male",
+    "realm": "Gondor",
+    "nacimiento": "1 de marzo, año 2931 T.E.",
+    "imagen": "https://sm.ign.com/t/ign_latam/screenshot/default/aragorn11_rmuk.1280.jpg"
+  },
+  {
+    "nombre": "Legolas",
+    "raza": "Elf",
+    "genero": "Male",
+    "realm": "Bosque Negro",
+    "nacimiento": "Desconocida",
+    "imagen": "https://i.pinimg.com/736x/c0/f6/64/c0f6641923c845c024d7127d863bb3c7.jpg"
+  },
+  {
+    "nombre": "Gimli",
+    "raza": "Dwarf",
+    "genero": "Male",
+    "realm": "Erebor",
+    "nacimiento": "año 2879 T.E.",
+    "imagen": "https://i.pinimg.com/736x/8d/de/15/8dde15d8593c9e826175e880cd57b4ec.jpg"
+  },
+  {
+    "nombre": "Samwise Gamgee",
+    "raza": "Hobbit",
+    "genero": "Male",
+    "realm": "La Comarca",
+    "nacimiento": "6 de abril, año 2980 T.E.",
+    "imagen": "https://www.theonering.com/wp-content/uploads/2020/11/sam_proper_poet.jpg"
+  },
+  {
+    "nombre": "Meriadoc Brandybuck",
+    "raza": "Hobbit",
+    "genero": "Male",
+    "realm": "La Comarca",
+    "nacimiento": "año 2982 T.E.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Meriadoc_Brandybuck_screenshot.jpg/250px-Meriadoc_Brandybuck_screenshot.jpg"
+  },
+  {
+    "nombre": "Peregrin Took",
+    "raza": "Hobbit",
+    "genero": "Male",
+    "realm": "La Comarca",
+    "nacimiento": "año 2990 T.E.",
+    "imagen": "https://i.pinimg.com/736x/71/0a/55/710a55cacebbef8df08feedc254745a0.jpg"
+  },
+  {
+    "nombre": "Boromir",
+    "raza": "Human",
+    "genero": "Male",
+    "realm": "Gondor",
+    "nacimiento": "año 2978 T.E.",
+    "imagen": "https://i.pinimg.com/736x/67/86/48/678648d2858d70df88aa12b87586eb44.jpg"
+  },
+  {
+    "nombre": "Saruman",
+    "raza": "Maiar",
+    "genero": "Male",
+    "realm": "Valinor",
+    "nacimiento": "Antes de la creación de Arda",
+    "imagen": "https://sm.ign.com/t/ign_es/screenshot/default/saruman_s5gu.1280.jpg"
+  },
+  {
+    "nombre": "Sauron",
+    "raza": "Maiar",
+    "genero": "Male",
+    "realm": "Mordor",
+    "nacimiento": "Antes de la creación de Arda",
+    "imagen": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F7lkp7sxb7bqb1.jpg"
+  },
+  {
+    "nombre": "Arwen",
+    "raza": "Half-elven",
+    "genero": "Female",
+    "realm": "Rivendel",
+    "nacimiento": "año 241 T.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Galadriel",
+    "raza": "Elf",
+    "genero": "Female",
+    "realm": "Lothlórien",
+    "nacimiento": "año 1362 P.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Elrond",
+    "raza": "Half-elven",
+    "genero": "Male",
+    "realm": "Rivendel",
+    "nacimiento": "año 532 P.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Théoden",
+    "raza": "Human",
+    "genero": "Male",
+    "realm": "Rohan",
+    "nacimiento": "año 2948 T.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Éowyn",
+    "raza": "Human",
+    "genero": "Female",
+    "realm": "Rohan",
+    "nacimiento": "año 2995 T.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Faramir",
+    "raza": "Human",
+    "genero": "Male",
+    "realm": "Gondor",
+    "nacimiento": "año 2983 T.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Bilbo Baggins",
+    "raza": "Hobbit",
+    "genero": "Male",
+    "realm": "La Comarca",
+    "nacimiento": "22 de septiembre, año 2890 T.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Gollum",
+    "raza": "Hobbit",
+    "genero": "Male",
+    "realm": "Río Gladden",
+    "nacimiento": "año 2430 T.E.",
+    "imagen": ""
+  },
+  {
+    "nombre": "Treebeard",
+    "raza": "Ent",
+    "genero": "Male",
+    "realm": "Fangorn",
+    "nacimiento": "Desconocida",
+    "imagen": ""
+  }
+]

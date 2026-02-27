@@ -7,13 +7,13 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom shadow-sm">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           <img
             src={logo}
             alt="logo"
             className="navbar-logo"
           />
-        </a>
+        </Link>
 
         <button 
           className="navbar-toggler border-warning" 

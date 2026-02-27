@@ -5,10 +5,14 @@ import Carousel from './components/Carousel'
 import Card1 from './components/Card1'
 import Card2 from './components/Card2'
 import Card3 from './components/Card3'
+import Personajes from './Personajes'
+import { Routes, Route } from 'react-router-dom'
 import './index.css'
 
-function App() {
+function Inicio() {
   return (
+
+    
     <div className="min-vh-100" style={{ backgroundColor: '#130b0b' }}>
       <Navbar />
       <Bienvenida />
@@ -44,6 +48,15 @@ function App() {
       </footer>
     </div>
   );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Inicio />} />
+      <Route path="/personajes" element={<Personajes />} />
+    </Routes>
+  )
 }
 
 export default App;
