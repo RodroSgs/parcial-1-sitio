@@ -8,7 +8,7 @@ const Bienvenida = () => {
     <section className="hero-section">
       <div className="container">
         <div className="hero-content">
-          <h1 className="hero-title">BIENVENIDO A THE ONE API</h1>
+          <h1 className="hero-title">BIENVENIDO A THE LORD OF THE WEB</h1>
           <p className="hero-subtitle">
             Preparado para aprender sobre los peronajes de la magnifica saga de J.R.R. Tolkien :)
           </p>

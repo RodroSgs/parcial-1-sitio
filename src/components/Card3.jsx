@@ -17,7 +17,7 @@ const Card3 = () => {
           Tercer película de la saga
         </p>
         <a 
-          href="https://www.primevideo.com/-/es_419/detail/0FPODQ891XA22TWGCUKUCE7DVN/" 
+          href="https://www.primevideo.com/-/es_419/detail/0FPODQ891XA22TWGCUKUCE7DVN/ref=atv_dp_share_cu_r" 
           target="_blank" 
           rel="noopener noreferrer"
           className="btn-card"

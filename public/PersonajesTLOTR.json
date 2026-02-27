@@ -93,7 +93,7 @@
     "genero": "Female",
     "realm": "Rivendel",
     "nacimiento": "año 241 T.E.",
-    "imagen": ""
+    "imagen": "https://i.pinimg.com/564x/47/e7/6d/47e76d3437014b5ffb9d173120b5d7dc.jpg"
   },
   {
     "nombre": "Galadriel",
@@ -101,7 +101,7 @@
     "genero": "Female",
     "realm": "Lothlórien",
     "nacimiento": "año 1362 P.E.",
-    "imagen": ""
+    "imagen": "https://i.pinimg.com/736x/ba/18/75/ba187541521d96d17b4c7d3977718b8c.jpg"
   },
   {
     "nombre": "Elrond",
@@ -109,7 +109,7 @@
     "genero": "Male",
     "realm": "Rivendel",
     "nacimiento": "año 532 P.E.",
-    "imagen": ""
+    "imagen": "https://www.shutterstock.com/editorial/image-editorial/MfT7Y73cM5j2g855MzQzMg==/lord-rings-fellowship-ring-hugo-weaving-elrond-440nw-1660305a.jpg"
   },
   {
     "nombre": "Théoden",
@@ -117,7 +117,7 @@
     "genero": "Male",
     "realm": "Rohan",
     "nacimiento": "año 2948 T.E.",
-    "imagen": ""
+    "imagen": "https://i.blogs.es/2a7300/theoden/500_333.jpeg"
   },
   {
     "nombre": "Éowyn",
@@ -125,7 +125,7 @@
     "genero": "Female",
     "realm": "Rohan",
     "nacimiento": "año 2995 T.E.",
-    "imagen": ""
+    "imagen": "https://i.pinimg.com/736x/99/df/54/99df5440969916e3af3c5e5610630066.jpg"
   },
   {
     "nombre": "Faramir",
@@ -133,7 +133,7 @@
     "genero": "Male",
     "realm": "Gondor",
     "nacimiento": "año 2983 T.E.",
-    "imagen": ""
+    "imagen": "https://i.pinimg.com/736x/01/e7/6a/01e76af057e37b8a503aff67249cf3ba.jpg"
   },
   {
     "nombre": "Bilbo Baggins",
@@ -141,7 +141,7 @@
     "genero": "Male",
     "realm": "La Comarca",
     "nacimiento": "22 de septiembre, año 2890 T.E.",
-    "imagen": ""
+    "imagen": "https://cdng.europosters.eu/pod_public/750/116135.jpg"
   },
   {
     "nombre": "Gollum",
@@ -149,7 +149,7 @@
     "genero": "Male",
     "realm": "Río Gladden",
     "nacimiento": "año 2430 T.E.",
-    "imagen": ""
+    "imagen": "https://tooys.mx/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/a/s/asmus-collectible-toys-the-lord-of-the-rings-gollum_0.jpg"
   },
   {
     "nombre": "Treebeard",
@@ -157,6 +157,6 @@
     "genero": "Male",
     "realm": "Fangorn",
     "nacimiento": "Desconocida",
-    "imagen": ""
+    "imagen": "https://kaiju.wdfiles.com/local--files/wiki:treebeard/treebeard_2003_01.jpg"
   }
 ]

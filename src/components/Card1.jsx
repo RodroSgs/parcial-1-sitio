@@ -18,7 +18,7 @@ const Card1 = () => {
           Primer película de la saga
         </p>
         <a 
-          href="https://www.primevideo.com/..." 
+          href="https://www.primevideo.com/-/es_419/detail/0N0CRBLY1S5GDA4EVTQ34LF5GN/ref=atv_dp_share_cu_r" 
           target="_blank"
           className="btn-card"
         >

@@ -17,7 +17,7 @@ const Card2 = () => {
           Segunda película de la saga
         </p>
         <a 
-          href="https://www.primevideo.com/-/es_419/detail/0OSAJRJAW5BHY843QHALJZFUTX/" 
+          href="https://www.primevideo.com/-/es_419/detail/0OSAJRJAW5BHY843QHALJZFUTX/ref=atv_dp_share_cu_r" 
           target="_blank" 
           rel="noopener noreferrer"
           className="btn-card"

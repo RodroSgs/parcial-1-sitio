@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import personajesData from '../public/PersonajesTLOTR.json'
-import './Personajes.css' 
+import './personajes.css'
 
 const Personajes = () => {
   const [busqueda, setBusqueda] = useState('')
