@@ -1,0 +1,169 @@
+* {
+  font-family: 'Macondo Swash Caps', serif !important;
+}
+
+body {
+  background-color: #121212;
+  color: #d1c7b7;
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+
+/* NAVBAR */
+nav.navbar.navbar-custom {
+  background-color: #130b0b !important;
+  border-bottom: 2px solid #c5a059 !important;
+  padding: 0.1rem 0;
+}
+
+.navbar-logo {
+  height: 45px;
+  width: auto;
+}
+
+.navbar .form-control-custom {
+  background-color: #2a2a2a !important;
+  border: 1px solid #c5a059 !important;
+  color: #ffffff !important;
+}
+
+.navbar .form-control-custom::placeholder {
+  color: #d1c7b7 !important;
+  opacity: 0.8;
+}
+
+.navbar .btn-outline-warning {
+  color: #c5a059 !important;
+  border-color: #c5a059 !important;
+  background-color: transparent !important;
+}
+
+.navbar .btn-outline-warning:hover {
+  background-color: #c5a059 !important;
+  color: #000000 !important;
+}
+
+/* BIENVENIDA */
+.hero-section {
+  background-color: #271212;
+  padding: 80px 0;
+  text-align: center;
+  border-bottom: 2px solid #c5a059; 
+}
+
+.hero-title {
+  color: #c5a059 !important;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  color: #d1c7b7 !important;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.btn-explorar {
+  background-color: #c5a059 !important;
+  color: #000000 !important;
+  display: inline-block !important;
+  min-width: 160px; 
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none !important;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.3s ease;
+  border: none !important;
+  cursor: pointer;
+}
+
+.btn-explorar:hover {
+  background-color: #000000 !important;
+  color: #c5a059 !important;
+  outline: 1px solid #c5a059;
+  box-shadow: 0 0 15px #c5a05966;
+}
+
+/* CARDS PELICULAS */
+h2.titulo-seccion {
+  color: #c5a059 !important;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.titulo-seccion::after {
+  content: "";
+  display: block;
+  width: 180px;
+  height: 2px;
+  background-color: #c5a059;
+  margin: 15px auto 50px auto;
+}
+
+.card.card-lotr {
+  background-color: #080000 !important;
+  border: 2px solid #c5a059 !important;
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 18rem;
+}
+
+.card.card-lotr:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px #c5a05933;
+}
+
+.card-lotr .card-title {
+  color: #c5a059 !important;
+  font-size: 1.6rem !important;
+  font-weight: bold;
+}
+
+.card-lotr .card-text {
+  color: #d1c7b7 !important;
+  font-size: 1rem;
+}
+
+.card-lotr .btn-card {
+  background-color: #c5a059 !important;
+  color: #000000 !important;
+  display: inline-block !important;
+  width: auto !important;
+  min-width: 150px;
+  margin: 10px auto 20px auto;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none !important;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.3s ease;
+  border: none !important;
+}
+
+.card-lotr .btn-card:hover {
+  background-color: #000000 !important;
+  color: #c5a059 !important;
+  outline: 1px solid #c5a059;
+}
+
+/* FOOTER */
+footer.footer-custom {
+  background-color: #271212 !important;
+  border-top: 2px solid #c5a059 !important;
+  padding: 0.8rem 0;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.footer-custom .footer-text {
+  color: #d1c7b7 !important;
+  font-size: 0.85rem;
+  margin: 0;
+  opacity: 0.8;
+}
