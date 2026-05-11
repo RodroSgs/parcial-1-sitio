@@ -1,19 +1,34 @@
-import React, { useState } from 'react'
-import Navbar from './components/Navbar'
-import personajesData from '../public/PersonajesTLOTR.json'
-import './personajes.css'
+import React, { useState, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { createFavorito } from '../features/favoritos/favoritosSlice';
+import { getPersonajes } from '../features/personajes/personajesSlice';
+import Navbar from '../components/Navbar';
+import '../personajes.css';
 
 const Personajes = () => {
   const [busqueda, setBusqueda] = useState('')
   const [personaje, setPersonaje] = useState(null)
-  const [error, setError] = useState('')
+  const [error, setError] = useState('');
+
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.auth);
+  const { personajes } = useSelector((state) => state.personajes);
+
+  useEffect(() => {
+    // Cargar personajes si no están en el estado
+    if (personajes.length === 0) {
+      dispatch(getPersonajes());
+    }
+  }, [dispatch, personajes.length]);
 
   const buscarPersonaje = () => {
     if (!busqueda.trim()) return
     setError('')
     setPersonaje(null)
 
-    const resultado = personajesData.find(
+    const resultado = personajes.find(
       (p) => p.nombre.toLowerCase().includes(busqueda.toLowerCase())
     )
 
@@ -26,7 +41,24 @@ const Personajes = () => {
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') buscarPersonaje()
-  }
+  };
+
+  const handleAddFavorito = () => {
+    if (!user) {
+      alert('Debes iniciar sesión para añadir a favoritos.');
+      navigate('/login');
+      return;
+    }
+    
+    const favData = {
+      nombrePersonaje: personaje.nombre,
+      raza: personaje.raza,
+      imagen: personaje.imagen
+    };
+    
+    dispatch(createFavorito(favData));
+    alert(`${personaje.nombre} ha sido añadido a tus favoritos!`);
+  };
 
   return (
     <div className="page-wrapper">
@@ -60,9 +92,15 @@ const Personajes = () => {
               <div className="stats-list">
                 <p><span>Raza:</span> {personaje.raza || 'Desconocida'}</p>
                 <p><span>Género:</span> {personaje.genero || 'Desconocido'}</p>
-                <p><span>Reino:</span> {personaje.realm || 'Desconocido'}</p>
+                <p><span>Hogar:</span> {personaje.hogar || personaje.realm || 'Desconocido'}</p>
                 <p><span>Nacimiento:</span> {personaje.nacimiento || 'Desconocida'}</p>
               </div>
+              <button 
+                className="btn-explorar mt-4 align-self-start" 
+                onClick={handleAddFavorito}
+              > 
+                Añadir a Favoritos 
+              </button>
             </div>
             
             <div className="image-column">

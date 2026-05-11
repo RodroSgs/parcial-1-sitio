@@ -1,0 +1,121 @@
+/* Favoritos Grid Styling */
+
+.fav-wrapper {
+  padding: 3rem 0;
+  min-height: calc(100vh - 250px);
+}
+
+.fav-empty-state {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, rgba(31, 27, 24, 0.7), rgba(11, 14, 12, 0.8));
+  border: 1px dashed var(--color-earth-mid);
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.fav-empty-state h3 {
+  color: var(--color-text-muted);
+  font-family: 'Cinzel', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.fav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.fav-card {
+  background-color: var(--color-earth-dark);
+  border: 1px solid var(--color-earth-mid);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+}
+
+.fav-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.8), 0 0 15px var(--color-gold-glow);
+  border-color: var(--color-gold);
+}
+
+.fav-card-img-container {
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 2px solid var(--color-earth-mid);
+  position: relative;
+}
+
+.fav-card-img-container::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to bottom, transparent 60%, var(--color-earth-dark) 100%);
+  pointer-events: none;
+}
+
+.fav-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.1) sepia(0.2) brightness(0.85);
+  transition: all 0.5s ease;
+}
+
+.fav-card:hover .fav-img {
+  filter: contrast(1.1) sepia(0) brightness(1);
+  transform: scale(1.05);
+}
+
+.fav-info {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fav-name {
+  color: var(--color-gold);
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(212, 175, 55, 0.3);
+}
+
+.fav-race {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.btn-remove-fav {
+  background-color: transparent;
+  color: #ff6b6b;
+  border: 1px solid rgba(255, 107, 107, 0.4);
+  padding: 0.6rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  letter-spacing: 1px;
+}
+
+.btn-remove-fav:hover {
+  background-color: rgba(255, 107, 107, 0.1);
+  border-color: #ff6b6b;
+  box-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+}
